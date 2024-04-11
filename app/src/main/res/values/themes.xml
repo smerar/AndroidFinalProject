@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EShop" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+<!--    Style for splash screen-->
+    <style name="Theme.splash_screen" parent="Base.Theme.EShop">
+        <item name="android:statusBarColor">
+            @color/colorPrimary
+        </item>
+    </style>
+<!--    <style name="Theme.EShop" parent="Base.Theme.EShop" />-->
+</resources>
