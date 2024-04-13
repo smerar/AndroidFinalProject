@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Account" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/Payment" />
+    <group
+        android:id="@+id/navGroupProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:menuCategory="secondary">
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/laptop" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/phone" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/accessories" />
+    </group>
+</menu>
